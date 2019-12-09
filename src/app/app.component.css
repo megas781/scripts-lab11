@@ -1,0 +1,15 @@
+
+.sensor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.sensor-card {
+  border: 1px solid black;
+  padding: 16px;
+  margin: 16px;
+  background: red;
+}
+.sensor-card.active {
+  background: lightgreen;
+}
+
