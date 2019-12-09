@@ -13,9 +13,10 @@ export class AppComponent {
       this.sensors.push(Sensor.initRandomized());
     }
   }
-
-
-
+  deleteSensor(index) {
+    console.log(index);
+    this.sensors.splice(index, 1);
+  }
 
 }
 
